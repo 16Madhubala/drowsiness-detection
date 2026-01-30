@@ -1,0 +1,6 @@
+opencv-python
+numpy
+imutils
+scipy
+playsound==1.2.2
+dlib
