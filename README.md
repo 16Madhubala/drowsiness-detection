@@ -2,15 +2,14 @@
 
 **Real-time drowsiness detection using OpenCV & MediaPipe**
 
-This project monitors a person's eyes through a webcam to detect drowsiness.  
-It uses **MediaPipe Face Mesh** for landmark detection and calculates **Eye Aspect Ratio (EAR)** to trigger an alarm when eyes stay closed for too long.
+This project monitors a person's eyes through a webcam to detect drowsiness. It uses **MediaPipe Face Mesh** for landmark detection and calculates **Eye Aspect Ratio (EAR)** to trigger an alarm when eyes stay closed for too long.
 
 ---
 
 ## 📌 Features
 
 - Real-time webcam feed
-- Facial landmark detection with **MediaPipe**
+- Facial landmark detection with MediaPipe
 - Eye Aspect Ratio (EAR) calculation
 - Alarm alert on drowsiness
 - Modular code structure for easy extension
@@ -38,11 +37,7 @@ drowsiness-detection/
 │   ├── eye_utils.py
 │   └── alert_utils.py
 ├── assets/
-│   ├── alarm.wav
-│   ├── demo.gif         # <- Add your demo GIF here
-│   ├── screenshot1.png  # <- Add screenshot images here
-│   ├── screenshot2.png
-│   └── screenshot3.png
+│   └── alarm.wav
 ├── README.md
 └── .gitignore
 ```
@@ -86,7 +81,7 @@ python main.py
 
 ## ⚙️ Configuration
 
-Adjust `config.py` to fit different users:
+Tweak `config.py` for your needs:
 
 ```python
 EAR_THRESHOLD = 0.25    # Eye closed detection threshold
@@ -98,18 +93,7 @@ ALARM_PATH = "assets/alarm.wav"
 
 ## 📸 Demo / Screenshots
 
-### Demo GIF
-![Demo](assets/demo.gif)
-
-### Screenshots
-Normal state:  
-![Normal](assets/screenshot1.png)
-
-Drowsy state:  
-![Drowsy](assets/screenshot2.png)
-
-Configuration view:  
-![Config](assets/screenshot3.png)
+*(Add screenshots or GIF here)*
 
 ---
 
@@ -118,7 +102,6 @@ Configuration view:
 - Works best in good lighting
 - Webcam quality affects accuracy
 - Adjust thresholds per user for best results
-- Use a quiet environment for alarm testing
 
 ---
 
