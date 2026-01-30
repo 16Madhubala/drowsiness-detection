@@ -107,5 +107,6 @@ ALARM_PATH = "assets/alarm.wav"
 
 ## 📬 Contact
 
-Created by **Sunshine (16Madhubala)**  
+Created by **Madhubala (16Madhubala)**  
 Happy coding! 😁
+
